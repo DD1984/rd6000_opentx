@@ -1822,6 +1822,19 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 <part name="Y2" library="SparkFun-Clocks" deviceset="CRYSTAL" device="SMD-HC49UP"/>
 <part name="PAD34" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD2" device="" package3d_urn="urn:adsk.eagle:package:30839/1"/>
 <part name="PAD35" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD2" device="" package3d_urn="urn:adsk.eagle:package:30839/1"/>
+<part name="PAD36" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD2" device="" package3d_urn="urn:adsk.eagle:package:30839/1"/>
+<part name="PAD37" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD2" device="" package3d_urn="urn:adsk.eagle:package:30839/1"/>
+<part name="PAD38" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD2" device="" package3d_urn="urn:adsk.eagle:package:30839/1"/>
+<part name="PAD39" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD2" device="" package3d_urn="urn:adsk.eagle:package:30839/1"/>
+<part name="PAD40" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD2" device="" package3d_urn="urn:adsk.eagle:package:30839/1"/>
+<part name="PAD41" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD2" device="" package3d_urn="urn:adsk.eagle:package:30839/1"/>
+<part name="PAD42" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD2" device="" package3d_urn="urn:adsk.eagle:package:30839/1"/>
+<part name="PAD43" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD2" device="" package3d_urn="urn:adsk.eagle:package:30839/1"/>
+<part name="PAD44" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD2" device="" package3d_urn="urn:adsk.eagle:package:30839/1"/>
+<part name="PAD45" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD2" device="" package3d_urn="urn:adsk.eagle:package:30839/1"/>
+<part name="PAD46" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD2" device="" package3d_urn="urn:adsk.eagle:package:30839/1"/>
+<part name="PAD47" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD2" device="" package3d_urn="urn:adsk.eagle:package:30839/1"/>
+<part name="PAD48" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD2" device="" package3d_urn="urn:adsk.eagle:package:30839/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -1944,17 +1957,17 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 <attribute name="NAME" x="-170.8658" y="21.463" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="-176.022" y="21.463" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="PAD21" gate="1" x="-167.64" y="20.32" smashed="yes" rot="R270">
+<instance part="PAD21" gate="1" x="-157.48" y="20.32" smashed="yes" rot="R270">
+<attribute name="NAME" x="-155.6258" y="21.463" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="-160.782" y="21.463" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="PAD22" gate="1" x="-167.64" y="20.32" smashed="yes" rot="R270">
 <attribute name="NAME" x="-165.7858" y="21.463" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="-170.942" y="21.463" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="PAD22" gate="1" x="-162.56" y="20.32" smashed="yes" rot="R270">
+<instance part="PAD23" gate="1" x="-162.56" y="20.32" smashed="yes" rot="R270">
 <attribute name="NAME" x="-160.7058" y="21.463" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="-165.862" y="21.463" size="1.778" layer="96" rot="R270"/>
-</instance>
-<instance part="PAD23" gate="1" x="-157.48" y="20.32" smashed="yes" rot="R270">
-<attribute name="NAME" x="-155.6258" y="21.463" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="-160.782" y="21.463" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="U1" gate="G$1" x="-55.88" y="-35.56" smashed="yes">
 <attribute name="NAME" x="-63.5" y="-27.178" size="1.778" layer="95"/>
@@ -2020,8 +2033,8 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 <instance part="+3V1" gate="G$1" x="-55.88" y="-12.7" smashed="yes">
 <attribute name="VALUE" x="-58.42" y="-17.78" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="+3V2" gate="G$1" x="-152.4" y="-35.56" smashed="yes">
-<attribute name="VALUE" x="-154.94" y="-40.64" size="1.778" layer="96" rot="R90"/>
+<instance part="+3V2" gate="G$1" x="-152.4" y="-25.4" smashed="yes">
+<attribute name="VALUE" x="-154.94" y="-30.48" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="GND4" gate="1" x="-111.76" y="73.66" smashed="yes">
 <attribute name="VALUE" x="-114.3" y="71.12" size="1.778" layer="96"/>
@@ -2051,65 +2064,147 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 <attribute name="NAME" x="-130.2258" y="95.123" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="-135.382" y="95.123" size="1.778" layer="96" rot="R270"/>
 </instance>
+<instance part="PAD36" gate="1" x="-287.02" y="27.94" smashed="yes" rot="R270">
+<attribute name="NAME" x="-285.1658" y="29.083" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="-290.322" y="29.083" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="PAD37" gate="1" x="-281.94" y="27.94" smashed="yes" rot="R270">
+<attribute name="NAME" x="-280.0858" y="29.083" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="-285.242" y="29.083" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="PAD38" gate="1" x="-276.86" y="27.94" smashed="yes" rot="R270">
+<attribute name="NAME" x="-275.0058" y="29.083" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="-280.162" y="29.083" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="PAD39" gate="1" x="-271.78" y="27.94" smashed="yes" rot="R270">
+<attribute name="NAME" x="-269.9258" y="29.083" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="-275.082" y="29.083" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="PAD40" gate="1" x="-266.7" y="27.94" smashed="yes" rot="R270">
+<attribute name="NAME" x="-264.8458" y="29.083" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="-270.002" y="29.083" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="PAD41" gate="1" x="-261.62" y="27.94" smashed="yes" rot="R270">
+<attribute name="NAME" x="-259.7658" y="29.083" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="-264.922" y="29.083" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="PAD42" gate="1" x="-276.86" y="-35.56" smashed="yes" rot="R270">
+<attribute name="NAME" x="-275.0058" y="-34.417" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="-280.162" y="-34.417" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="PAD43" gate="1" x="-271.78" y="-35.56" smashed="yes" rot="R270">
+<attribute name="NAME" x="-269.9258" y="-34.417" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="-275.082" y="-34.417" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="PAD44" gate="1" x="-256.54" y="-35.56" smashed="yes" rot="R270">
+<attribute name="NAME" x="-254.6858" y="-34.417" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="-259.842" y="-34.417" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="PAD45" gate="1" x="-251.46" y="-35.56" smashed="yes" rot="R270">
+<attribute name="NAME" x="-249.6058" y="-34.417" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="-254.762" y="-34.417" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="PAD46" gate="1" x="-246.38" y="-35.56" smashed="yes" rot="R270">
+<attribute name="NAME" x="-244.5258" y="-34.417" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="-249.682" y="-34.417" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="PAD47" gate="1" x="-182.88" y="93.98" smashed="yes" rot="R270">
+<attribute name="NAME" x="-181.0258" y="95.123" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="-186.182" y="95.123" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="PAD48" gate="1" x="-177.8" y="93.98" smashed="yes" rot="R270">
+<attribute name="NAME" x="-175.9458" y="95.123" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="-181.102" y="95.123" size="1.778" layer="96" rot="R270"/>
+</instance>
 </instances>
 <busses>
 </busses>
 <nets>
-<net name="KEYS_PAGE" class="0">
+<net name="KEYS_PAGE_PD3" class="0">
 <segment>
 <pinref part="IC1" gate="MCU" pin="PD3"/>
 <wire x1="7.62" y1="78.74" x2="2.54" y2="78.74" width="0.1524" layer="91"/>
-<label x="-15.24" y="78.74" size="1.778" layer="95"/>
+<label x="-20.32" y="78.74" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="PAD37" gate="1" pin="P"/>
+<wire x1="-281.94" y1="25.4" x2="-281.94" y2="20.32" width="0.1524" layer="91"/>
+<label x="-281.94" y="-5.08" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
-<net name="KEYS_MENU" class="0">
+<net name="KEYS_MENU_PD7" class="0">
 <segment>
 <pinref part="IC1" gate="MCU" pin="PD7"/>
 <wire x1="7.62" y1="88.9" x2="2.54" y2="88.9" width="0.1524" layer="91"/>
-<label x="-15.24" y="88.9" size="1.778" layer="95"/>
+<label x="-20.32" y="88.9" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="PAD36" gate="1" pin="P"/>
+<wire x1="-287.02" y1="25.4" x2="-287.02" y2="20.32" width="0.1524" layer="91"/>
+<label x="-287.02" y="-5.08" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
-<net name="KEYS_EXIT" class="0">
+<net name="KEYS_EXIT_PD2" class="0">
 <segment>
 <pinref part="IC1" gate="MCU" pin="PD2"/>
 <wire x1="7.62" y1="76.2" x2="2.54" y2="76.2" width="0.1524" layer="91"/>
-<label x="-15.24" y="76.2" size="1.778" layer="95"/>
+<label x="-20.32" y="76.2" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="PAD38" gate="1" pin="P"/>
+<wire x1="-276.86" y1="25.4" x2="-276.86" y2="20.32" width="0.1524" layer="91"/>
+<label x="-276.86" y="-5.08" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
-<net name="KEYS_ENTER" class="0">
+<net name="KEYS_ENTER_PE10" class="0">
 <segment>
 <pinref part="IC1" gate="MCU" pin="PE10"/>
 <wire x1="7.62" y1="53.34" x2="2.54" y2="53.34" width="0.1524" layer="91"/>
-<label x="-15.24" y="53.34" size="1.778" layer="95"/>
+<label x="-22.86" y="53.34" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="PAD39" gate="1" pin="P"/>
+<wire x1="-271.78" y1="25.4" x2="-271.78" y2="20.32" width="0.1524" layer="91"/>
+<label x="-271.78" y="-5.08" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
-<net name="ENC_A" class="0">
+<net name="ENC_A_PE9" class="0">
 <segment>
 <pinref part="IC1" gate="MCU" pin="PE9"/>
 <wire x1="7.62" y1="50.8" x2="2.54" y2="50.8" width="0.1524" layer="91"/>
-<label x="-10.16" y="50.8" size="1.778" layer="95"/>
+<label x="-15.24" y="50.8" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="PAD40" gate="1" pin="P"/>
+<wire x1="-266.7" y1="25.4" x2="-266.7" y2="20.32" width="0.1524" layer="91"/>
+<label x="-266.7" y="2.54" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
-<net name="ENC_B" class="0">
+<net name="ENC_B_PE11" class="0">
 <segment>
 <pinref part="IC1" gate="MCU" pin="PE11"/>
 <wire x1="7.62" y1="55.88" x2="2.54" y2="55.88" width="0.1524" layer="91"/>
-<label x="-10.16" y="55.88" size="1.778" layer="95"/>
+<label x="-15.24" y="55.88" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="PAD41" gate="1" pin="P"/>
+<wire x1="-261.62" y1="25.4" x2="-261.62" y2="20.32" width="0.1524" layer="91"/>
+<label x="-261.62" y="2.54" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
-<net name="TRIMS_LHL" class="0">
+<net name="TRIMS_LHL_PD15" class="0">
 <segment>
 <pinref part="IC1" gate="MCU" pin="PD15"/>
 <wire x1="7.62" y1="109.22" x2="2.54" y2="109.22" width="0.1524" layer="91"/>
-<label x="-12.7" y="109.22" size="1.778" layer="95"/>
+<label x="-20.32" y="109.22" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="PAD4" gate="1" pin="P"/>
 <wire x1="-205.74" y1="91.44" x2="-205.74" y2="86.36" width="0.1524" layer="91"/>
-<label x="-205.74" y="71.12" size="1.778" layer="95" rot="R90"/>
+<label x="-205.74" y="63.5" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
-<net name="TRIMS_LHR" class="0">
+<net name="TRIMS_LHR_PC1" class="0">
 <segment>
 <pinref part="IC1" gate="MCU" pin="PC1"/>
 <wire x1="53.34" y1="73.66" x2="58.42" y2="73.66" width="0.1524" layer="91"/>
@@ -2118,34 +2213,34 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 <segment>
 <pinref part="PAD3" gate="1" pin="P"/>
 <wire x1="-210.82" y1="91.44" x2="-210.82" y2="86.36" width="0.1524" layer="91"/>
-<label x="-210.82" y="71.12" size="1.778" layer="95" rot="R90"/>
+<label x="-210.82" y="63.5" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
-<net name="TRIMS_LVD" class="0">
+<net name="TRIMS_LVD_PE6" class="0">
 <segment>
 <pinref part="IC1" gate="MCU" pin="PE6"/>
 <wire x1="7.62" y1="43.18" x2="2.54" y2="43.18" width="0.1524" layer="91"/>
-<label x="-12.7" y="43.18" size="1.778" layer="95"/>
+<label x="-20.32" y="43.18" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="PAD1" gate="1" pin="P"/>
 <wire x1="-215.9" y1="91.44" x2="-215.9" y2="86.36" width="0.1524" layer="91"/>
-<label x="-215.9" y="71.12" size="1.778" layer="95" rot="R90"/>
+<label x="-215.9" y="63.5" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
-<net name="TRIMS_LVU" class="0">
+<net name="TRIMS_LVU_PE5" class="0">
 <segment>
 <pinref part="IC1" gate="MCU" pin="PE5"/>
 <wire x1="7.62" y1="40.64" x2="2.54" y2="40.64" width="0.1524" layer="91"/>
-<label x="-12.7" y="40.64" size="1.778" layer="95"/>
+<label x="-20.32" y="40.64" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="PAD2" gate="1" pin="P"/>
 <wire x1="-220.98" y1="91.44" x2="-220.98" y2="86.36" width="0.1524" layer="91"/>
-<label x="-220.98" y="71.12" size="1.778" layer="95" rot="R90"/>
+<label x="-220.98" y="63.5" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
-<net name="TRIMS_RVD" class="0">
+<net name="TRIMS_RVD_PC3" class="0">
 <segment>
 <pinref part="IC1" gate="MCU" pin="PC3"/>
 <wire x1="53.34" y1="78.74" x2="58.42" y2="78.74" width="0.1524" layer="91"/>
@@ -2154,22 +2249,22 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 <segment>
 <pinref part="PAD9" gate="1" pin="P"/>
 <wire x1="-142.24" y1="91.44" x2="-142.24" y2="86.36" width="0.1524" layer="91"/>
-<label x="-142.24" y="71.12" size="1.778" layer="95" rot="R90"/>
+<label x="-142.24" y="63.5" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
-<net name="TRIMS_RHL" class="0">
+<net name="TRIMS_RHL_PE3" class="0">
 <segment>
 <pinref part="IC1" gate="MCU" pin="PE3"/>
 <wire x1="7.62" y1="35.56" x2="2.54" y2="35.56" width="0.1524" layer="91"/>
-<label x="-12.7" y="35.56" size="1.778" layer="95"/>
+<label x="-20.32" y="35.56" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="PAD12" gate="1" pin="P"/>
 <wire x1="-152.4" y1="91.44" x2="-152.4" y2="86.36" width="0.1524" layer="91"/>
-<label x="-152.4" y="71.12" size="1.778" layer="95" rot="R90"/>
+<label x="-152.4" y="63.5" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
-<net name="TRIMS_RVU" class="0">
+<net name="TRIMS_RVU_PC2" class="0">
 <segment>
 <pinref part="IC1" gate="MCU" pin="PC2"/>
 <wire x1="53.34" y1="76.2" x2="58.42" y2="76.2" width="0.1524" layer="91"/>
@@ -2178,31 +2273,31 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 <segment>
 <pinref part="PAD10" gate="1" pin="P"/>
 <wire x1="-137.16" y1="91.44" x2="-137.16" y2="86.36" width="0.1524" layer="91"/>
-<label x="-137.16" y="71.12" size="1.778" layer="95" rot="R90"/>
+<label x="-137.16" y="63.5" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
-<net name="TRIMS_RHR" class="0">
+<net name="TRIMS_RHR_PE4" class="0">
 <segment>
 <pinref part="IC1" gate="MCU" pin="PE4"/>
 <wire x1="7.62" y1="38.1" x2="2.54" y2="38.1" width="0.1524" layer="91"/>
-<label x="-12.7" y="38.1" size="1.778" layer="95"/>
+<label x="-20.32" y="38.1" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="PAD11" gate="1" pin="P"/>
 <wire x1="-147.32" y1="91.44" x2="-147.32" y2="86.36" width="0.1524" layer="91"/>
-<label x="-147.32" y="71.12" size="1.778" layer="95" rot="R90"/>
+<label x="-147.32" y="63.5" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="SWITCHES_A_H" class="0">
 <segment>
-<pinref part="IC1" gate="MCU" pin="PB5"/>
-<wire x1="53.34" y1="40.64" x2="58.42" y2="40.64" width="0.1524" layer="91"/>
-<label x="60.96" y="40.64" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="PAD26" gate="1" pin="P"/>
 <wire x1="-114.3" y1="40.64" x2="-114.3" y2="35.56" width="0.1524" layer="91"/>
 <label x="-114.3" y="12.7" size="1.778" layer="95" rot="R90"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="MCU" pin="PE13"/>
+<wire x1="7.62" y1="60.96" x2="2.54" y2="60.96" width="0.1524" layer="91"/>
+<label x="-20.32" y="60.96" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SWITCHES_B_L" class="0">
@@ -2313,7 +2408,7 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 <label x="-73.66" y="12.7" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
-<net name="ADC_STICK_RV" class="0">
+<net name="ADC_STICK_RV_PA0" class="0">
 <segment>
 <pinref part="IC1" gate="MCU" pin="PA0-WKUP"/>
 <wire x1="53.34" y1="-15.24" x2="58.42" y2="-15.24" width="0.1524" layer="91"/>
@@ -2322,10 +2417,10 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 <segment>
 <pinref part="PAD14" gate="1" pin="P"/>
 <wire x1="-127" y1="91.44" x2="-127" y2="86.36" width="0.1524" layer="91"/>
-<label x="-127" y="66.04" size="1.778" layer="95" rot="R90"/>
+<label x="-127" y="58.42" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
-<net name="ADC_STICK_RH" class="0">
+<net name="ADC_STICK_RH_PA1" class="0">
 <segment>
 <pinref part="IC1" gate="MCU" pin="PA1"/>
 <wire x1="53.34" y1="-12.7" x2="58.42" y2="-12.7" width="0.1524" layer="91"/>
@@ -2334,10 +2429,10 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 <segment>
 <pinref part="PAD13" gate="1" pin="P"/>
 <wire x1="-121.92" y1="91.44" x2="-121.92" y2="86.36" width="0.1524" layer="91"/>
-<label x="-121.92" y="66.04" size="1.778" layer="95" rot="R90"/>
+<label x="-121.92" y="58.42" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
-<net name="ADC_STICK_LV" class="0">
+<net name="ADC_STICK_LV_PA2" class="0">
 <segment>
 <pinref part="IC1" gate="MCU" pin="PA2"/>
 <wire x1="53.34" y1="-10.16" x2="58.42" y2="-10.16" width="0.1524" layer="91"/>
@@ -2346,10 +2441,10 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 <segment>
 <pinref part="PAD6" gate="1" pin="P"/>
 <wire x1="-231.14" y1="91.44" x2="-231.14" y2="86.36" width="0.1524" layer="91"/>
-<label x="-231.14" y="66.04" size="1.778" layer="95" rot="R90"/>
+<label x="-231.14" y="58.42" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
-<net name="ADC_STICK_LH" class="0">
+<net name="ADC_STICK_LH_PA3" class="0">
 <segment>
 <pinref part="IC1" gate="MCU" pin="PA3"/>
 <wire x1="53.34" y1="-7.62" x2="58.42" y2="-7.62" width="0.1524" layer="91"/>
@@ -2358,21 +2453,31 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 <segment>
 <pinref part="PAD5" gate="1" pin="P"/>
 <wire x1="-236.22" y1="91.44" x2="-236.22" y2="86.36" width="0.1524" layer="91"/>
-<label x="-236.22" y="66.04" size="1.778" layer="95" rot="R90"/>
+<label x="-236.22" y="58.42" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
-<net name="ADC_POT1" class="0">
+<net name="ADC_POT1_PA6" class="0">
 <segment>
 <pinref part="IC1" gate="MCU" pin="PA6"/>
 <wire x1="53.34" y1="0" x2="58.42" y2="0" width="0.1524" layer="91"/>
 <label x="60.96" y="0" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="PAD47" gate="1" pin="P"/>
+<wire x1="-182.88" y1="91.44" x2="-182.88" y2="86.36" width="0.1524" layer="91"/>
+<label x="-182.88" y="63.5" size="1.778" layer="95" rot="R90"/>
+</segment>
 </net>
-<net name="ADC_POT2" class="0">
+<net name="ADC_POT2_PB0" class="0">
 <segment>
 <pinref part="IC1" gate="MCU" pin="PB0"/>
 <wire x1="53.34" y1="27.94" x2="58.42" y2="27.94" width="0.1524" layer="91"/>
 <label x="60.96" y="27.94" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="PAD48" gate="1" pin="P"/>
+<wire x1="-177.8" y1="91.44" x2="-177.8" y2="86.36" width="0.1524" layer="91"/>
+<label x="-177.8" y="63.5" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="ADC_BATT" class="0">
@@ -2417,32 +2522,52 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 <label x="60.96" y="30.48" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="INTMODULE_PWR" class="0">
+<net name="INTMODULE_PWR_PC6" class="0">
 <segment>
 <pinref part="IC1" gate="MCU" pin="PC6"/>
 <wire x1="53.34" y1="86.36" x2="58.42" y2="86.36" width="0.1524" layer="91"/>
 <label x="60.96" y="86.36" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="PAD42" gate="1" pin="P"/>
+<wire x1="-276.86" y1="-38.1" x2="-276.86" y2="-43.18" width="0.1524" layer="91"/>
+<label x="-276.86" y="-73.66" size="1.778" layer="95" rot="R90"/>
+</segment>
 </net>
-<net name="INTMODULE_TX" class="0">
+<net name="INTMODULE_TX_PA10" class="0">
 <segment>
 <pinref part="IC1" gate="MCU" pin="PA10"/>
 <wire x1="53.34" y1="10.16" x2="58.42" y2="10.16" width="0.1524" layer="91"/>
 <label x="60.96" y="10.16" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="PAD43" gate="1" pin="P"/>
+<wire x1="-271.78" y1="-38.1" x2="-271.78" y2="-43.18" width="0.1524" layer="91"/>
+<label x="-271.78" y="-73.66" size="1.778" layer="95" rot="R90"/>
+</segment>
 </net>
-<net name="EXTMODULE_PWR" class="0">
+<net name="EXTMODULE_PWR_PD8" class="0">
 <segment>
 <pinref part="IC1" gate="MCU" pin="PD8"/>
 <wire x1="7.62" y1="91.44" x2="2.54" y2="91.44" width="0.1524" layer="91"/>
-<label x="-22.86" y="91.44" size="1.778" layer="95"/>
+<label x="-27.94" y="91.44" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="PAD45" gate="1" pin="P"/>
+<wire x1="-251.46" y1="-38.1" x2="-251.46" y2="-43.18" width="0.1524" layer="91"/>
+<label x="-251.46" y="-73.66" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
-<net name="EXTMODULE_TX" class="0">
+<net name="EXTMODULE_TX_PA7" class="0">
 <segment>
 <pinref part="IC1" gate="MCU" pin="PA7"/>
 <wire x1="53.34" y1="2.54" x2="58.42" y2="2.54" width="0.1524" layer="91"/>
 <label x="60.96" y="2.54" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="PAD44" gate="1" pin="P"/>
+<wire x1="-256.54" y1="-38.1" x2="-256.54" y2="-43.18" width="0.1524" layer="91"/>
+<label x="-256.54" y="-73.66" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="TRAINER_IN" class="0">
@@ -2508,7 +2633,7 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 <label x="60.96" y="88.9" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="USB_VBUS" class="0">
+<net name="USB_VBUS_PA9" class="0">
 <segment>
 <pinref part="IC1" gate="MCU" pin="PA9"/>
 <wire x1="53.34" y1="7.62" x2="58.42" y2="7.62" width="0.1524" layer="91"/>
@@ -2520,7 +2645,7 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 <label x="-58.42" y="-76.2" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
-<net name="USB_DM" class="0">
+<net name="USB_DM_PA11" class="0">
 <segment>
 <pinref part="IC1" gate="MCU" pin="PA11"/>
 <wire x1="53.34" y1="12.7" x2="58.42" y2="12.7" width="0.1524" layer="91"/>
@@ -2532,7 +2657,7 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 <label x="-55.88" y="-76.2" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
-<net name="USB_DP" class="0">
+<net name="USB_DP_PA12" class="0">
 <segment>
 <pinref part="IC1" gate="MCU" pin="PA12"/>
 <wire x1="53.34" y1="15.24" x2="58.42" y2="15.24" width="0.1524" layer="91"/>
@@ -2544,19 +2669,19 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 <label x="-53.34" y="-76.2" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
-<net name="BACKLIGHT" class="0">
+<net name="BACKLIGHT_PD13" class="0">
 <segment>
 <pinref part="IC1" gate="MCU" pin="PD13"/>
 <wire x1="7.62" y1="104.14" x2="2.54" y2="104.14" width="0.1524" layer="91"/>
-<label x="-12.7" y="104.14" size="1.778" layer="95"/>
+<label x="-20.32" y="104.14" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="PAD21" gate="1" pin="P"/>
-<wire x1="-167.64" y1="17.78" x2="-167.64" y2="12.7" width="0.1524" layer="91"/>
-<label x="-167.64" y="-2.54" size="1.778" layer="95" rot="R90"/>
+<wire x1="-157.48" y1="17.78" x2="-157.48" y2="12.7" width="0.1524" layer="91"/>
+<label x="-157.48" y="-10.16" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
-<net name="LCD_MOSI" class="0">
+<net name="LCD_MOSI_PC12" class="0">
 <segment>
 <pinref part="IC1" gate="MCU" pin="PC12"/>
 <wire x1="53.34" y1="101.6" x2="58.42" y2="101.6" width="0.1524" layer="91"/>
@@ -2565,10 +2690,10 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 <segment>
 <pinref part="PAD17" gate="1" pin="P"/>
 <wire x1="-187.96" y1="17.78" x2="-187.96" y2="12.7" width="0.1524" layer="91"/>
-<label x="-187.96" y="-2.54" size="1.778" layer="95" rot="R90"/>
+<label x="-187.96" y="-10.16" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
-<net name="LCD_CLK" class="0">
+<net name="LCD_CLK_PC10" class="0">
 <segment>
 <pinref part="IC1" gate="MCU" pin="PC10"/>
 <wire x1="53.34" y1="96.52" x2="58.42" y2="96.52" width="0.1524" layer="91"/>
@@ -2577,10 +2702,10 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 <segment>
 <pinref part="PAD19" gate="1" pin="P"/>
 <wire x1="-177.8" y1="17.78" x2="-177.8" y2="12.7" width="0.1524" layer="91"/>
-<label x="-177.8" y="-2.54" size="1.778" layer="95" rot="R90"/>
+<label x="-177.8" y="-10.16" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
-<net name="LCD_A0" class="0">
+<net name="LCD_A0_PC11" class="0">
 <segment>
 <pinref part="IC1" gate="MCU" pin="PC11"/>
 <wire x1="53.34" y1="99.06" x2="58.42" y2="99.06" width="0.1524" layer="91"/>
@@ -2589,26 +2714,31 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 <segment>
 <pinref part="PAD18" gate="1" pin="P"/>
 <wire x1="-182.88" y1="17.78" x2="-182.88" y2="12.7" width="0.1524" layer="91"/>
-<label x="-182.88" y="-2.54" size="1.778" layer="95" rot="R90"/>
+<label x="-182.88" y="-10.16" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
-<net name="LCD_NCS" class="0">
+<net name="LCD_NCS_PA15" class="0">
 <segment>
 <pinref part="IC1" gate="MCU" pin="PA15"/>
 <wire x1="53.34" y1="22.86" x2="58.42" y2="22.86" width="0.1524" layer="91"/>
 <label x="60.96" y="22.86" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="PAD22" gate="1" pin="P"/>
+<wire x1="-167.64" y1="17.78" x2="-167.64" y2="12.7" width="0.1524" layer="91"/>
+<label x="-167.64" y="-10.16" size="1.778" layer="95" rot="R90"/>
+</segment>
 </net>
-<net name="LCD_RST" class="0">
+<net name="LCD_RST_PD12" class="0">
 <segment>
 <pinref part="IC1" gate="MCU" pin="PD12"/>
 <wire x1="7.62" y1="101.6" x2="2.54" y2="101.6" width="0.1524" layer="91"/>
-<label x="-10.16" y="101.6" size="1.778" layer="95"/>
+<label x="-20.32" y="101.6" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="PAD20" gate="1" pin="P"/>
 <wire x1="-172.72" y1="17.78" x2="-172.72" y2="12.7" width="0.1524" layer="91"/>
-<label x="-172.72" y="-2.54" size="1.778" layer="95" rot="R90"/>
+<label x="-172.72" y="-10.16" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="I2C_SCL" class="0">
@@ -2647,11 +2777,11 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 <label x="-38.1" y="-33.02" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="SD_PRESENT" class="0">
+<net name="SD_PRESENT_PD9" class="0">
 <segment>
 <pinref part="IC1" gate="MCU" pin="PD9"/>
 <wire x1="7.62" y1="93.98" x2="2.54" y2="93.98" width="0.1524" layer="91"/>
-<label x="-15.24" y="93.98" size="1.778" layer="95"/>
+<label x="-22.86" y="93.98" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U$2" gate="G$1" pin="CD(1)"/>
@@ -2659,7 +2789,7 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 <label x="-137.16" y="-53.34" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
-<net name="SD_CS" class="0">
+<net name="SD_CS_PB12" class="0">
 <segment>
 <pinref part="IC1" gate="MCU" pin="PB12"/>
 <wire x1="53.34" y1="58.42" x2="58.42" y2="58.42" width="0.1524" layer="91"/>
@@ -2671,7 +2801,7 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 <label x="-157.48" y="-53.34" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
-<net name="SD_SCK" class="0">
+<net name="SD_SCK_PB13" class="0">
 <segment>
 <pinref part="IC1" gate="MCU" pin="PB13"/>
 <wire x1="53.34" y1="60.96" x2="58.42" y2="60.96" width="0.1524" layer="91"/>
@@ -2683,7 +2813,7 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 <label x="-149.86" y="-53.34" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
-<net name="SD_MISO" class="0">
+<net name="SD_MISO_PB14" class="0">
 <segment>
 <pinref part="IC1" gate="MCU" pin="PB14"/>
 <wire x1="53.34" y1="63.5" x2="58.42" y2="63.5" width="0.1524" layer="91"/>
@@ -2695,7 +2825,7 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 <label x="-144.78" y="-53.34" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
-<net name="SD_MOSI" class="0">
+<net name="SD_MOSI_PB15" class="0">
 <segment>
 <pinref part="IC1" gate="MCU" pin="PB15"/>
 <wire x1="53.34" y1="66.04" x2="58.42" y2="66.04" width="0.1524" layer="91"/>
@@ -2803,7 +2933,7 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 <segment>
 <pinref part="U$2" gate="G$1" pin="VDD"/>
 <pinref part="+3V2" gate="G$1" pin="+3V3"/>
-<wire x1="-152.4" y1="-60.96" x2="-152.4" y2="-38.1" width="0.1524" layer="91"/>
+<wire x1="-152.4" y1="-60.96" x2="-152.4" y2="-27.94" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="+3V3" gate="G$1" pin="+3V3"/>
@@ -2854,6 +2984,12 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 <wire x1="-15.24" y1="10.16" x2="-20.32" y2="10.16" width="0.1524" layer="91"/>
 <pinref part="Y2" gate="G$1" pin="1"/>
 <wire x1="-20.32" y1="10.16" x2="-20.32" y2="12.7" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$7" class="0">
+<segment>
+<pinref part="PAD46" gate="1" pin="P"/>
+<wire x1="-246.38" y1="-38.1" x2="-246.38" y2="-43.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
