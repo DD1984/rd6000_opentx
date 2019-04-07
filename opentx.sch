@@ -1839,6 +1839,7 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 <sheets>
 <sheet>
 <plain>
+<text x="-99.06" y="-81.28" size="1.778" layer="91">as general gpio (input), not vbus</text>
 </plain>
 <instances>
 <instance part="IC1" gate="MCU" x="30.48" y="48.26" smashed="yes">
